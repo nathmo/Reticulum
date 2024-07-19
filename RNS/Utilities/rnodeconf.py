@@ -2327,7 +2327,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2345,7 +2345,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2363,7 +2363,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2381,7 +2381,7 @@ def main():
                         if numeric_version >= 1.59:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2399,7 +2399,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2417,7 +2417,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2435,7 +2435,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2453,7 +2453,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2471,7 +2471,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2488,7 +2488,7 @@ def main():
                     elif fw_filename == "rnode_firmware_lora32v21_tcxo.zip":
                         return [
                             sys.executable, flasher,
-                            "--chip", "esp32",
+                            "--chip", "esp32-C3",
                             "--port", args.port,
                             "--baud", args.baud_flash,
                             "--before", "default_reset",
@@ -2507,7 +2507,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2525,7 +2525,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2560,7 +2560,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                sys.executable,  flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2578,7 +2578,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2596,7 +2596,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2614,7 +2614,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2632,7 +2632,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2650,7 +2650,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2668,7 +2668,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2686,7 +2686,7 @@ def main():
                         else:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
@@ -2721,7 +2721,7 @@ def main():
                     elif fw_filename == "extracted_rnode_firmware.zip":
                         return [
                             sys.executable, flasher,
-                            "--chip", "esp32",
+                            "--chip", "esp32-C3",
                             "--port", args.port,
                             "--baud", args.baud_flash,
                             "--before", "default_reset",
