@@ -2309,7 +2309,7 @@ def main():
                         if numeric_version >= 1.55:
                             return [
                                 sys.executable, flasher,
-                                "--chip", "esp32",
+                                "--chip", "esp32-C3",
                                 "--port", args.port,
                                 "--baud", args.baud_flash,
                                 "--before", "default_reset",
