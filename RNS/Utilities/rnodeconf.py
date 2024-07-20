@@ -55,6 +55,7 @@ firmware_update_url = "https://github.com/markqvist/RNode_Firmware/releases/down
 fw_filename = None
 fw_url = None
 mapped_model = None
+selected_model = None
 
 class KISS():
     FEND            = 0xC0
