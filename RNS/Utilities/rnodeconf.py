@@ -3309,7 +3309,8 @@ def main():
                         else:
                             if len(args.model) == 2:
                                 model = ord(bytes.fromhex(args.model))
-
+                       # Initialize selected_model from specified model
+                        selected_model = model
 
                     if args.hwrev != None and (args.hwrev > 0 and args.hwrev < 256):
                         hwrev = chr(args.hwrev)
